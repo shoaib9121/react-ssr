@@ -1,14 +1,15 @@
 import React from 'react';
+import { initStore } from '../store'
 import styles from './index.module.css';
 import Card from './Card';
-import data from './API/data.json';
-
-export default class Index extends React.Component {
-    static async getInitialProps () {
-        return { cards: data }
+import { initialCards } from '../store/actions'
+class Index extends React.Component {
+    static async getInitialProps ({ store }) {
+        return store.dispatch(initialCards());
     }
 
     render () {
+        
         return (
             <div className={styles.app}>
                 <header className={styles.header}>
@@ -23,7 +24,10 @@ export default class Index extends React.Component {
                        ))
                    }
                 </div>
+                {/* <button onClick={()=> dispatch(addItem())} > Click me</button> */}
             </div>
         )
     }
 };
+
+export default initStore.withRedux(Index)

@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * Actions\n */\nexport const initialCards = () => {\n  return {\n    type: 'INITIAL_CARDS',\n    cards: data\n  };\n};\nexport const addItem = item => {\n  return {\n    type: 'ADD',\n    item\n  };\n};","map":null,"metadata":{},"sourceType":"module"}

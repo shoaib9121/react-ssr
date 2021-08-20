@@ -1,0 +1,43 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-8f31809deb7932dd0187.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/w7GapJfO6lB8b3mP-RD5R/_buildManifest.js",
+    "static/w7GapJfO6lB8b3mP-RD5R/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/main-fa2d7effc0ed14485198.js",
+      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
+      "static/chunks/framework.b1290caeda235fc7bf40.js",
+      "static/chunks/3a3f75626beeb6412aba5e6564dc5dac4d3e7fd6.ebefd935aa9eadf7826f.js",
+      "static/css/5d415c73d95bdcbd9531.css",
+      "static/chunks/pages/index-92464ad730d57b1fa2ca.js"
+    ],
+    "/Card": [
+      "static/chunks/main-fa2d7effc0ed14485198.js",
+      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
+      "static/chunks/framework.b1290caeda235fc7bf40.js",
+      "static/css/7af056663a9ef832dbdc.css",
+      "static/chunks/pages/Card-21822eb62ab38a0a9474.js"
+    ],
+    "/_app": [
+      "static/chunks/main-fa2d7effc0ed14485198.js",
+      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
+      "static/chunks/framework.b1290caeda235fc7bf40.js",
+      "static/chunks/3a3f75626beeb6412aba5e6564dc5dac4d3e7fd6.ebefd935aa9eadf7826f.js",
+      "static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.376eccea70ff2d81c3c6.js",
+      "static/chunks/pages/_app-8db9161a8387146566e9.js"
+    ],
+    "/_error": [
+      "static/chunks/main-fa2d7effc0ed14485198.js",
+      "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
+      "static/chunks/framework.b1290caeda235fc7bf40.js",
+      "static/chunks/pages/_error-63113165aa5b9b862fee.js"
+    ]
+  },
+  "ampFirstPages": []
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import data from '../pages/API/data.json';\n/**\n * Actions\n */\n\nexport const initialCards = () => {\n  return {\n    type: 'INITIAL_CARDS',\n    cards: data\n  };\n};\nexport const addItem = item => {\n  return {\n    type: 'ADD',\n    item\n  };\n};","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * Actions\n */\nexport var initialCards = function initialCards() {\n  return {\n    type: 'INITIAL_CARDS',\n    cards: data\n  };\n};\nexport var addItem = function addItem(item) {\n  return {\n    type: 'ADD',\n    item: item\n  };\n};","map":null,"metadata":{},"sourceType":"module"}
